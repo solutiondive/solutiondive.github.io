@@ -24,6 +24,7 @@
   "parser": "@typescript-eslint/parser",
   "plugins": ["@typescript-eslint", "prettier", "react-hooks", "eslint-plugin-tailwindcss"],
   "rules": {
+    "react/jsx-no-useless-fragment": "off",
     "import/prefer-default-export": "off",
     "@typescript-eslint/no-shadow": "off",
     "no-useless-concat": "off",
